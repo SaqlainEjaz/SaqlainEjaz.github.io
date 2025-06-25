@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saqlain Ejaz - Home</title>
-    <link rel="stylesheet" href="Projects/assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saqlain's Projects</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <Header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tools</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </Header>
-    <Main>
+  <header>
+    <h1>Welcome to Saqlain's Projects</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
 
-    </Main>
-    <Footer>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li><a href="Projects/assets/Project 1.html">Project 1</a></li>
+      <!-- Add more projects here -->
+    </ul>
+  </section>
 
-    </Footer>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Saqlain Ejaz, a mechanical engineer who loves building web projects.</p>
+  </section>
+
+  <section id="feedback">
+    <h2>Send Me Feedback</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Saqlain Ejaz</p>
+  </footer>
 </body>
 </html>
